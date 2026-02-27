@@ -1,0 +1,1 @@
+export const WORDS_LENGTH = 5;
