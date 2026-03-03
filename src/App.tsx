@@ -4,7 +4,7 @@ import { Keyboard } from './Keyboard';
 const App: React.FC = () => {
   return (
     <div>
-      <h1>Wordlish</h1>
+      <h1 className='text-center'>Wordlish</h1>
       <Keyboard>
         <Guesses />
       </Keyboard>

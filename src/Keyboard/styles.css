@@ -1,0 +1,47 @@
+.keys-1 {
+  display: block;
+}
+.keys-2 {
+  display: block;
+}
+.whole-keyboard {
+  display: none;
+}
+.little-key-button {
+  width: 35px;
+  height: 35px;
+  padding: 2px;
+  font-size: 10px;
+}
+
+.box {
+  padding: 10px;
+  margin: 2px;
+  border: 2px solid black;
+  border-radius: 10px;
+  height: 3rem;
+  width: 3rem;
+}
+.box:hover {
+  background-color: #e9e8e8;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+  .keys-1 {
+    display: none;
+  }
+  .keys-2 {
+    display: none;
+  }
+  .whole-keyboard {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .box {
+    height: 1rem;
+    width: 1rem;
+  }
+}
