@@ -1,0 +1,1 @@
+export type Cell = { letter: string; state: string };
