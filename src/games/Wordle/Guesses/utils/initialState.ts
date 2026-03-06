@@ -1,5 +1,5 @@
 import { ROWS, WORDS_LENGTH } from './constants';
-import type { GuessGrid } from './types';
+import type { GuessGrid } from '../types';
 
 export const initState = (): GuessGrid =>
   Array.from({ length: ROWS }).map(() =>

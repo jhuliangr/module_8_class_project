@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import { Guesses } from './Guesses';
 import { Keyboard } from './Keyboard';
-import { WORDS_LENGTH } from './Guesses/constants';
+import { WORDS_LENGTH } from './Guesses/utils/constants';
 
 const Wordle: React.FC = () => {
   const [pos, setPos] = useState<number>(0);
